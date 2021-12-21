@@ -4,8 +4,8 @@ import javax.swing.JFrame;
 public class GameFrame extends JFrame{
 
     public GameFrame(){
-
-        this.add(new GamePanel());
+         GamePanel panel = new GamePanel();
+        this.add(panel);
         this.setTitle("Ping Pong Game");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
@@ -13,5 +13,7 @@ public class GameFrame extends JFrame{
         this.pack();
         this.setLocationRelativeTo(null);
         this.setVisible(true);
+        //panel.run();
+
     }
 }

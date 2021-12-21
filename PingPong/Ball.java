@@ -9,20 +9,37 @@ import java.util.Random;
 public class Ball extends Rectangle{
 
     Random random;
-    int xVelocity;
-    int yVelocity;
+    double xVelocity = 2;
+    double yVelocity = 2;
+    double speed = 2;
 
-    public Ball(){
-        
+    public Ball(int xBall, int yBall, int ballWidth, int ballHeight){
+        super(xBall, yBall, ballWidth, ballHeight);
     }
 
-    public void setXDirection(){}
+    public void setXDirection(double xSpeed){
+        if(xVelocity > 0){
+            xVelocity += xSpeed;
+        }else{
+            xVelocity -= xSpeed;
+        }
+    }
 
-    public void setYDirection(){}
+    public void setYDirection(double ySpeed){
+        if(yVelocity > 0){
+            yVelocity += ySpeed;
+        }else{
+            yVelocity -= ySpeed;
+        }
+    }
 
     public void draw(Graphics g){
-        g.fillOval(arg0, arg1, arg2, arg3);
+        g.setColor(Color.WHITE);
+        g.fillOval(x, y, width, height);
     }
 
-    public void move(){}
+    public void move(){
+        y -= yVelocity;
+        x += xVelocity;
+    }
 }
