@@ -55,7 +55,7 @@ public class Paddle extends Rectangle{
             }
         }
     }
- 
+
     public void keyReleased(KeyEvent e){}
 
     public void setYDirection(int direction){
