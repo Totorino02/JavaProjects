@@ -2,7 +2,7 @@
     Description: Read, write data and manage files with java
     Author: HOUNSI Antoine
     Date: 13/01/22
-![CHEESE!](/home/totorino/Bureau/javaProjects/data/images/Reading-and-Writing.png)
+![CHEESE!](../data/images/Reading-and-Writing.png)
 ##### **Doing**
 - Read the info.txt file
 - write the read content in the standard output
@@ -21,4 +21,4 @@
 ---
 ##### **OUTPUT**
 
-![CHEESE!](/home/totorino/Bureau/javaProjects/data/images/taf.png)
+![CHEESE!](../data/images/taf.png)
