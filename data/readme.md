@@ -14,7 +14,7 @@
     to an exiting, the oldest is overwrite...But StringBuilder is mutable.
     the use of StringBuilder help you to improve preformances.
 
-######  **_`StringTokenizer`_** than String.split()
+######  **_`StringTokenizer`_** **_`String.split()`_**
     The simple reason is the instead of using String we use StringBuilder
 
 ##### **OUTPUT**
