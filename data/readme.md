@@ -10,7 +10,7 @@
 
 ---
 ##### **EXPLANATIONS**
-###### while **_`StringBuilder`_** than **_`String`_**
+###### why **_`StringBuilder`_** than **_`String`_**
     String is immutable it mean that when you try to add a new char[]
     to an exiting, the oldest is overwrite...But StringBuilder is mutable.
     the use of StringBuilder help us to improve preformances.
