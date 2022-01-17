@@ -10,12 +10,12 @@
 
 ---
 ##### **EXPLANATIONS**
-###### while **_`StringBuilder`_** than `String`
+###### while **_`StringBuilder`_** than **_`String`_**
     String is immutable it mean that when you try to add a new char[]
     to an exiting, the oldest is overwrite...But StringBuilder is mutable.
     the use of StringBuilder help you to improve preformances.
 
-######  **_`StringTokenizer`_** **_`String.split()`_**
+######  **_`StringTokenizer`_** than **_`String.split()`_**
     The simple reason is the instead of using String we use StringBuilder
 
 ---
