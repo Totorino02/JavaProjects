@@ -1,15 +1,20 @@
-package brickbreaker;
+
+package data;
+
+import donnees.Employes;
 
 /**
+ *
  * @author totorino
  */
-public class BrickBreaker {
-    
+public class Data {
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        GameFrame gameFrame = new GameFrame();
+        Employes employe = new Employes();
+        employe.lireDonnees();
     }
-
+    
 }
