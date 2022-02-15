@@ -183,7 +183,7 @@ public class DoubleLinkedList<T> {
         str.append("NULL");
         return str.toString();
     }
-
+    //get the size of the list
     public int getSize() {
         return size;
     }
